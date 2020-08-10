@@ -13,6 +13,15 @@ import { AppRoutes } from './app.routing';
 
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 
+const firebaseConfig = {
+  apiKey: "AIzaSyC4aC_rNJzr-qlaUU33m-Nu7HMGy0G6Rc4",
+  authDomain: "ewallet-b99df.firebaseapp.com",
+  databaseURL: "https://ewallet-b99df.firebaseio.com",
+  projectId: "ewallet-b99df",
+  storageBucket: "ewallet-b99df.appspot.com",
+  messagingSenderId: "669019117785",
+  appId: "1:669019117785:web:731d77ba65691f7e4c06c8"
+};
 
 @NgModule({
   declarations: [
